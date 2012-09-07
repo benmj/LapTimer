@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E14ACBDA15F5386C00349E4C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E14ACBD915F5386C00349E4C /* UIKit.framework */; };
+		E14ACBDC15F5386C00349E4C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E14ACBDB15F5386C00349E4C /* Foundation.framework */; };
+		E14ACBDE15F5386C00349E4C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E14ACBDD15F5386C00349E4C /* CoreGraphics.framework */; };
+		E14ACBE415F5386C00349E4C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E14ACBE215F5386C00349E4C /* InfoPlist.strings */; };
+		E14ACBE615F5386C00349E4C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E14ACBE515F5386C00349E4C /* main.m */; };
+		E14ACBEA15F5386C00349E4C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E14ACBE915F5386C00349E4C /* AppDelegate.m */; };
+		E14ACBF815F538A800349E4C /* UIButtonGlossy.m in Sources */ = {isa = PBXBuildFile; fileRef = E14ACBF715F538A800349E4C /* UIButtonGlossy.m */; };
+		E14ACBFC15F538B800349E4C /* LapTimer.xib in Resources */ = {isa = PBXBuildFile; fileRef = E14ACBF915F538B800349E4C /* LapTimer.xib */; };
+		E14ACBFD15F538B800349E4C /* LapTimerController.m in Sources */ = {isa = PBXBuildFile; fileRef = E14ACBFB15F538B800349E4C /* LapTimerController.m */; };
+		E14ACBFF15F538C300349E4C /* ButtonGBDot.png in Resources */ = {isa = PBXBuildFile; fileRef = E14ACBFE15F538C300349E4C /* ButtonGBDot.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E14ACBD515F5386C00349E4C /* LapTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LapTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E14ACBD915F5386C00349E4C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E14ACBDB15F5386C00349E4C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E14ACBDD15F5386C00349E4C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E14ACBE115F5386C00349E4C /* LapTimer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LapTimer-Info.plist"; sourceTree = "<group>"; };
+		E14ACBE315F5386C00349E4C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E14ACBE515F5386C00349E4C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E14ACBE715F5386C00349E4C /* LapTimer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LapTimer-Prefix.pch"; sourceTree = "<group>"; };
+		E14ACBE815F5386C00349E4C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E14ACBE915F5386C00349E4C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E14ACBF615F538A800349E4C /* UIButtonGlossy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIButtonGlossy.h; sourceTree = "<group>"; };
+		E14ACBF715F538A800349E4C /* UIButtonGlossy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIButtonGlossy.m; sourceTree = "<group>"; };
+		E14ACBF915F538B800349E4C /* LapTimer.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LapTimer.xib; sourceTree = "<group>"; };
+		E14ACBFA15F538B800349E4C /* LapTimerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LapTimerController.h; sourceTree = "<group>"; };
+		E14ACBFB15F538B800349E4C /* LapTimerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LapTimerController.m; sourceTree = "<group>"; };
+		E14ACBFE15F538C300349E4C /* ButtonGBDot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonGBDot.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E14ACBD215F5386C00349E4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E14ACBDA15F5386C00349E4C /* UIKit.framework in Frameworks */,
+				E14ACBDC15F5386C00349E4C /* Foundation.framework in Frameworks */,
+				E14ACBDE15F5386C00349E4C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E14ACBCA15F5386C00349E4C = {
+			isa = PBXGroup;
+			children = (
+				E14ACBDF15F5386C00349E4C /* LapTimer */,
+				E14ACBD815F5386C00349E4C /* Frameworks */,
+				E14ACBD615F5386C00349E4C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E14ACBD615F5386C00349E4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E14ACBD515F5386C00349E4C /* LapTimer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E14ACBD815F5386C00349E4C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E14ACBD915F5386C00349E4C /* UIKit.framework */,
+				E14ACBDB15F5386C00349E4C /* Foundation.framework */,
+				E14ACBDD15F5386C00349E4C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E14ACBDF15F5386C00349E4C /* LapTimer */ = {
+			isa = PBXGroup;
+			children = (
+				E14ACBFE15F538C300349E4C /* ButtonGBDot.png */,
+				E14ACBF915F538B800349E4C /* LapTimer.xib */,
+				E14ACBFA15F538B800349E4C /* LapTimerController.h */,
+				E14ACBFB15F538B800349E4C /* LapTimerController.m */,
+				E14ACBF615F538A800349E4C /* UIButtonGlossy.h */,
+				E14ACBF715F538A800349E4C /* UIButtonGlossy.m */,
+				E14ACBE815F5386C00349E4C /* AppDelegate.h */,
+				E14ACBE915F5386C00349E4C /* AppDelegate.m */,
+				E14ACBE015F5386C00349E4C /* Supporting Files */,
+			);
+			path = LapTimer;
+			sourceTree = "<group>";
+		};
+		E14ACBE015F5386C00349E4C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E14ACBE115F5386C00349E4C /* LapTimer-Info.plist */,
+				E14ACBE215F5386C00349E4C /* InfoPlist.strings */,
+				E14ACBE515F5386C00349E4C /* main.m */,
+				E14ACBE715F5386C00349E4C /* LapTimer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E14ACBD415F5386C00349E4C /* LapTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E14ACBF315F5386C00349E4C /* Build configuration list for PBXNativeTarget "LapTimer" */;
+			buildPhases = (
+				E14ACBD115F5386C00349E4C /* Sources */,
+				E14ACBD215F5386C00349E4C /* Frameworks */,
+				E14ACBD315F5386C00349E4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LapTimer;
+			productName = LapTimer;
+			productReference = E14ACBD515F5386C00349E4C /* LapTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E14ACBCC15F5386C00349E4C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Ben Jacobs";
+			};
+			buildConfigurationList = E14ACBCF15F5386C00349E4C /* Build configuration list for PBXProject "LapTimer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E14ACBCA15F5386C00349E4C;
+			productRefGroup = E14ACBD615F5386C00349E4C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E14ACBD415F5386C00349E4C /* LapTimer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E14ACBD315F5386C00349E4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E14ACBE415F5386C00349E4C /* InfoPlist.strings in Resources */,
+				E14ACBFC15F538B800349E4C /* LapTimer.xib in Resources */,
+				E14ACBFF15F538C300349E4C /* ButtonGBDot.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E14ACBD115F5386C00349E4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E14ACBE615F5386C00349E4C /* main.m in Sources */,
+				E14ACBEA15F5386C00349E4C /* AppDelegate.m in Sources */,
+				E14ACBF815F538A800349E4C /* UIButtonGlossy.m in Sources */,
+				E14ACBFD15F538B800349E4C /* LapTimerController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E14ACBE215F5386C00349E4C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E14ACBE315F5386C00349E4C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E14ACBF115F5386C00349E4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E14ACBF215F5386C00349E4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E14ACBF415F5386C00349E4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LapTimer/LapTimer-Prefix.pch";
+				INFOPLIST_FILE = "LapTimer/LapTimer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E14ACBF515F5386C00349E4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LapTimer/LapTimer-Prefix.pch";
+				INFOPLIST_FILE = "LapTimer/LapTimer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E14ACBCF15F5386C00349E4C /* Build configuration list for PBXProject "LapTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E14ACBF115F5386C00349E4C /* Debug */,
+				E14ACBF215F5386C00349E4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E14ACBF315F5386C00349E4C /* Build configuration list for PBXNativeTarget "LapTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E14ACBF415F5386C00349E4C /* Debug */,
+				E14ACBF515F5386C00349E4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E14ACBCC15F5386C00349E4C /* Project object */;
+}
