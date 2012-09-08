@@ -115,6 +115,7 @@ typedef enum {
         [self.lapHistory reloadData];
         
         self.runStart = nil;
+        self.pauseTimeInterval = 0;
         self.mainTimer.text = @"00:00.0";
         self.lapTimer.text = @"00:00.0";
     } else if (self.state = running) { // 'lap'
